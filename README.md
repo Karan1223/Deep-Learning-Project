@@ -7,7 +7,7 @@ In this project, we aim to develop a recurrent neural network (RNN) model to pre
 The initial model was implemented using an RNN architecture in PyTorch. It took the 'rate' and 'ems' columns as input features and predicted the 'pkh' column as the output. The model was composed of a single RNN layer followed by a linear (fully connected) layer. It was trained using the Mean Squared Error (MSE) loss function and the Adam optimizer. The hidden size of the RNN was set to 64 units.
  
 ## Report results on both training and test (losses and accuracies), and training/test graphs.
-The initial model was trained for 1000 epochs using the training dataset. The training loss decreased over epochs, indicating the model's learning. The test loss, calculated on the separate test dataset, was recorded as ** 0.0502.** The accuracy metric may not be directly applicable in this regression task, so we primarily focused on loss evaluation.
+The initial model was trained for 1000 epochs using the training dataset. The training loss decreased over epochs, indicating the model's learning. The test loss, calculated on the separate test dataset, was recorded as **0.0502**. The accuracy metric may not be directly applicable in this regression task, so we primarily focused on loss evaluation.
 
 
 
